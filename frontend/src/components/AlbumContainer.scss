@@ -1,0 +1,20 @@
+.album-container__cover {
+  max-width: 100%;
+}
+
+.album-container__cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.album-container__heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-align: center;
+}
+
+.album-container__title {
+  font-style: italic;
+}

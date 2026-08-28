@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #020617; /* slate-950 */
+  color: #e5e7eb; /* gray-200 */
+}
+
+label {
+  color: #9ca3af; /* gray-400 */
+}
+
+input[type="text"],
+input[type="file"] {
+  background-color: #020617; /* slate-950 */
+  color: #e5e7eb; /* gray-200 */
+  border: 1px solid #4b5563; /* gray-600 */
+}
+
+input[type="text"]::placeholder {
+  color: #6b7280; /* gray-500 */
+}
+
+

@@ -1,0 +1,16 @@
+.audio-player__player {
+  max-width: 100%;
+}
+
+.audio-player__player::-webkit-media-controls-enclosure {
+  border-radius: 0.6rem;
+  margin-bottom: -0.6rem;
+  background-color: transparent;
+}
+
+.audio-player__player::-webkit-media-controls-panel {
+  background-color: rgb(179, 179, 179);
+  height: 2.2rem;
+  border-radius: 0.6rem;
+}
+

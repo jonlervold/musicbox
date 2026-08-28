@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: rgb(231, 231, 231);
+    font-family: 'Arial', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+a {
+    color: rgb(73, 76, 209);
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        text-decoration: underline;
+    }
+    &:visited {
+        text-decoration: underline;
+    }
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+button {
+    background-color: rgb(119, 119, 119);
+    color: rgb(212, 212, 212);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(46, 47, 134);
+    }
+    &:active {
+        background-color: rgb(35, 36, 102);
+    }
+    &:disabled {
+        background-color: rgb(66, 66, 66);
+        color: rgb(105, 105, 105);
+    }
+}
+
+input {
+    background-color: rgb(31, 31, 31);
+    color: rgb(231, 231, 231);
+    border: 1px solid rgb(73, 76, 209);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.app__app-name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.loading__icon {
+  display: inline-block;
+  font-size: 1.5rem;
+  animation: loading-spin 1s linear infinite;
+}
+
+.loading__label {
+  font-style: italic;
+}
+
+@keyframes loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
